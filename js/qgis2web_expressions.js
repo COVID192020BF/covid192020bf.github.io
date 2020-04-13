@@ -754,3 +754,225 @@ function fnc__specialcol_(values, context) {
 function fnc_project_color(values, context) {
     return false;
 };
+
+
+
+function exp_Casconfirms100420_2rule0_eval_expression(context) {
+    // C_07042020 <= 50
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['C_07042020']  <= 50);
+    } else {
+        return (feature['C_07042020']  <= 50);
+    }
+}
+
+
+function exp_Casconfirms100420_2rule1_eval_expression(context) {
+    // C_07042020 > 50 AND C_07042020 <= 100
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['C_07042020']  > 50) && (feature.properties['C_07042020']  <= 100));
+    } else {
+        return ((feature['C_07042020']  > 50) && (feature['C_07042020']  <= 100));
+    }
+}
+
+
+function exp_Casconfirms100420_2rule2_eval_expression(context) {
+    // C_07042020 > 200 AND C_07042020 <= 300
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['C_07042020']  > 200) && (feature.properties['C_07042020']  <= 300));
+    } else {
+        return ((feature['C_07042020']  > 200) && (feature['C_07042020']  <= 300));
+    }
+}
+
+
+function exp_Casconfirms100420_2rule3_eval_expression(context) {
+    // C_07042020 > 300 AND C_07042020 <= 400
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['C_07042020']  > 300) && (feature.properties['C_07042020']  <= 400));
+    } else {
+        return ((feature['C_07042020']  > 300) && (feature['C_07042020']  <= 400));
+    }
+}
+
+
+function exp_Casconfirms100420_2rule4_eval_expression(context) {
+    // C_07042020 > 400 AND C_07042020 <= 500
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['C_07042020']  > 400) && (feature.properties['C_07042020']  <= 500));
+    } else {
+        return ((feature['C_07042020']  > 400) && (feature['C_07042020']  <= 500));
+    }
+}
+
+
+function exp_Casconfirms100420_2rule5_eval_expression(context) {
+    // C_07042020 > 800 AND C_07042020 <= 900
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['C_07042020']  > 800) && (feature.properties['C_07042020']  <= 900));
+    } else {
+        return ((feature['C_07042020']  > 800) && (feature['C_07042020']  <= 900));
+    }
+}
+
+
+function exp_Casconfirms010420_3rule0_eval_expression(context) {
+    // C_01042020 <= 50
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['C_01042020']  <= 50);
+    } else {
+        return (feature['C_01042020']  <= 50);
+    }
+}
+
+
+function exp_Casconfirms010420_3rule1_eval_expression(context) {
+    // C_01042020 > 50 AND C_01042020 <= 100
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['C_01042020']  > 50) && (feature.properties['C_01042020']  <= 100));
+    } else {
+        return ((feature['C_01042020']  > 50) && (feature['C_01042020']  <= 100));
+    }
+}
+
+
+function exp_Casconfirms010420_3rule2_eval_expression(context) {
+    // C_01042020 > 100 AND C_01042020 <= 200
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['C_01042020']  > 100) && (feature.properties['C_01042020']  <= 200));
+    } else {
+        return ((feature['C_01042020']  > 100) && (feature['C_01042020']  <= 200));
+    }
+}
+
+
+function exp_Casconfirms010420_3rule3_eval_expression(context) {
+    // C_01042020 > 200 AND C_01042020 <= 300
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['C_01042020']  > 200) && (feature.properties['C_01042020']  <= 300));
+    } else {
+        return ((feature['C_01042020']  > 200) && (feature['C_01042020']  <= 300));
+    }
+}
+
+
+function exp_Dcs10042020_4rule0_eval_expression(context) {
+    // D_07042020 <= 1
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['D_07042020']  <= 1);
+    } else {
+        return (feature['D_07042020']  <= 1);
+    }
+}
+
+
+function exp_Dcs10042020_4rule1_eval_expression(context) {
+    // D_07042020 > 1 AND D_07042020 <= 10
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['D_07042020']  > 1) && (feature.properties['D_07042020']  <= 10));
+    } else {
+        return ((feature['D_07042020']  > 1) && (feature['D_07042020']  <= 10));
+    }
+}
+
+
+function exp_Dcs10042020_4rule2_eval_expression(context) {
+    // D_07042020 > 10 AND D_07042020 <= 20
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['D_07042020']  > 10) && (feature.properties['D_07042020']  <= 20));
+    } else {
+        return ((feature['D_07042020']  > 10) && (feature['D_07042020']  <= 20));
+    }
+}
+
+
+function exp_Dcs10042020_4rule3_eval_expression(context) {
+    // D_07042020 > 20 AND D_07042020 <= 30
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['D_07042020']  > 20) && (feature.properties['D_07042020']  <= 30));
+    } else {
+        return ((feature['D_07042020']  > 20) && (feature['D_07042020']  <= 30));
+    }
+}
+
+
+function exp_Dcs01042020_5rule0_eval_expression(context) {
+    // D_01042020 <= 1
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['D_01042020']  <= 1);
+    } else {
+        return (feature['D_01042020']  <= 1);
+    }
+}
+
+
+function exp_Dcs01042020_5rule1_eval_expression(context) {
+    // D_01042020 > 1 AND D_01042020 <= 10
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['D_01042020']  > 1) && (feature.properties['D_01042020']  <= 10));
+    } else {
+        return ((feature['D_01042020']  > 1) && (feature['D_01042020']  <= 10));
+    }
+}
+
+
+function exp_Dcs01042020_5rule2_eval_expression(context) {
+    // D_01042020 > 10 AND D_01042020 <= 20
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['D_01042020']  > 10) && (feature.properties['D_01042020']  <= 20));
+    } else {
+        return ((feature['D_01042020']  > 10) && (feature['D_01042020']  <= 20));
+    }
+}
